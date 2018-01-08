@@ -1,0 +1,57 @@
+/* pages/personal/index.js.wxss */
+.t-personal-top{
+  display: flex;
+  align-items: center ;
+  justify-content: space-between ;
+  background: linear-gradient(to right bottom ,   #7ba2ff ,  #2d8cf0);
+  color: #fff;
+  font-size: 15px;
+}
+
+.t-person-info {
+  display: flex ;
+  align-items: center ;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 40rpx 30rpx 40rpx 20rpx ;
+  border-radius: 50%;
+}
+
+
+.t-person-quick {
+  padding: 15px 0 ;
+  background-color: #fff ;
+}
+
+.t-quick-icon {
+  height: 1.2rem ;
+  width: 1.2rem ;
+}
+
+.t-person-quick text {
+  font-size: 11px ; 
+  color: #222 ;
+  margin-top: 5px ;
+}
+
+.t-personal-body {
+  background-color: #f3f3f3 ;
+}
+
+.t-personal-reward {
+  background: linear-gradient(to right , #19be6b , #2d8cf0) ;
+  font-size: 11px ;
+  padding: 5px 2rpx ;
+  border-top-left-radius: 10px ;
+  border-bottom-left-radius: 10px ;
+}
+
+.t-personal-reward image {
+  height: 1rem ;
+  width: 1rem ;
+  vertical-align: text-bottom ;
+  margin: 0 3px 1px 3px ;
+}

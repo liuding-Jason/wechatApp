@@ -1,0 +1,55 @@
+<!--pages/shopManage/index.wxml-->
+<view>
+  <view class='t-shop-banner'>
+    <image src='http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg'></image>
+  </view>
+
+  <view class='t-shop-manage-item'>
+    <text class='.t-main-title{'>常用功能</text>
+    <view class='t-shop-item-body'>
+      <view class="zan-row">
+        <view class="zan-col zan-col-6">
+          <navigator url="/pages/checkSale/index" class="t-grid-item">
+            <image class='t-grid-item-iamge' src='/images/check.png'></image>
+            <text class='t-grid-item-text'>核销</text>
+          </navigator>
+        </view>
+        <view class="zan-col zan-col-6">
+          <navigator url="/pages/stock/index" class="t-grid-item">
+            <image class='t-grid-item-iamge' src='/images/return.png'></image>
+            <text class='t-grid-item-text'>库存</text>
+          </navigator>
+        </view>
+        <view class="zan-col zan-col-6"> 
+        </view>
+        <view class="zan-col zan-col-6">
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='t-shop-manage-item'>
+    <text class=''>其他应用</text>
+    <view class='t-shop-item-body'>
+      <view class="zan-row">
+        <view class="zan-col zan-col-6">
+         <view class="t-grid-item">
+            <image class='t-grid-item-iamge' src='/images/chart.png'></image>
+            <text class='t-grid-item-text'>智能报表</text>
+          </view>
+        </view>
+        <view class="zan-col zan-col-6">
+          <view class="t-grid-item">
+            <image class='t-grid-item-iamge' src='/images/guide.png'></image>
+            <text class='t-grid-item-text'>销售指导</text>
+          </view>
+        </view>
+        <view class="zan-col zan-col-6">
+          <view class="t-grid-item">
+            <image class='t-grid-item-iamge' src='/images/radar.png'></image>
+            <text class='t-grid-item-text'>店铺雷达</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

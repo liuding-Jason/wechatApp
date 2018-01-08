@@ -1,0 +1,19 @@
+<!--pages/areaManage/index.wxml-->
+<view class='container'>
+  <image class='t-area-manage-avator' src='/images/areaManage.jpg'></image>
+  <view class="zan-tag zan-tag--danger">KDD已认证</view> 
+</view>
+<view class="zan-panel">
+  <view class="zan-cell">
+    <view class="zan-cell__bd">姓名</view>
+    <view class="zan-cell__ft">{{ manageInfo.name }}</view>
+  </view>
+  <view class="zan-cell">
+    <view class="zan-cell__bd">职务</view>
+    <view class="zan-cell__ft">{{ manageInfo.roleName }}</view>
+  </view>
+  <view class="zan-cell">
+    <view class="zan-cell__bd">联系方式</view>
+    <view class="zan-cell__ft">{{ manageInfo.contract }}</view>
+  </view>
+</view>

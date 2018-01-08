@@ -1,0 +1,20 @@
+/* pages/shopManage/index.wxss */
+
+.t-shop-banner {
+  height: 320rpx ;
+  width: 100%;
+  overflow: hidden;
+}
+.t-shop-banner image {
+  width: 100%;
+}
+
+.t-shop-manage-item{
+  margin-bottom: 60rpx ;
+  padding: 0 15rpx ;
+}
+
+.t-shop-item-body{
+  padding: 0 15rpx ;
+  border-bottom: 1rpx solid #f3f3f3 ;
+}

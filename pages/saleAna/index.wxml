@@ -1,0 +1,27 @@
+<!--pages/shopManage/index.wxml-->
+<view class='t-shop-container'>
+  <text class='t-main-title'>店铺经营数据报告</text>
+  <view class='t-shop-info-cart flex-fc-ac'>
+    <text>您的销量已经超过<text class='t-color-warn' style='font-size:60rpx;'>21%</text>的店铺</text>
+    <view class='flex-fc-ac'>
+      <canvas canvas-id='total-chart'></canvas>
+    </view>
+  </view>
+  <view class='t-shop-info-cart'>
+    <text class='t-cart-title'>{{clientWidth}}店铺KDD货品<text class='t-color-primary'>销售</text>统计</text>
+    <view class='flex-fc-ac'>
+      <canvas canvas-id="sale-chart"></canvas>
+    </view>
+  </view>
+  <view class='t-shop-info-cart'>
+    <text class='t-cart-title'>店铺KDD货品<text class='t-color-success'>在售</text>统计</text>
+     
+  </view>
+  <view class='t-shop-info-cart'>
+    <text class='t-cart-title'>店铺KDD货品<text class='t-color-error'>退货</text>统计</text>
+    <view class='flex-fc-ac'>
+      <canvas canvas-id="return-chart"></canvas>
+    </view>
+  </view>
+</view>
+

@@ -1,0 +1,56 @@
+<!--index.wxml-->
+<view class='t-index-top'>
+  <view class='t-index-main-title'>
+    <view class="zan-icon zan-icon-hot"  style="color: #ff4343;margin-right:5px;"></view>全部
+  </view>
+  <view>
+    <navigator 
+      class='t-index-change-shop' 
+      hover-class='none'
+      url='/pages/shop/index'>切换店铺(3)</navigator> 
+  </view>
+</view>
+<view>
+  <view class='t-index-total-data'>
+    <view class="zan-row">
+      <view class="zan-col zan-col-8">
+        <view class='t-index-data-item flex-fc-ac'>
+          <text class='t-data-item-rank t-color-unhealty'>N</text>
+          <text>健康评分</text>
+        </view>
+      </view>
+      <view class="zan-col zan-col-8">
+        <view class='t-index-data-item flex-fc-ac'>
+          <text class='t-data-item-rank'>13545</text>
+          <text>销售数量</text>
+        </view>
+      </view>
+      <view class="zan-col zan-col-8">
+        <view class='t-index-data-item flex-fc-ac'>
+          <text class='t-data-item-rank .t-color-care'>20%</text>
+          <text>店铺指数</text>
+        </view>
+      </view>
+    </view>
+    <view class="zan-row">
+      <view class="zan-col zan-col-8">
+        <view class='t-index-data-item flex-fc-ac'>
+          <text class='t-data-item-rank'>1524</text>
+          <text>销售数量</text>
+        </view>
+      </view>
+      <view class="zan-col zan-col-8">
+        <view class='t-index-data-item flex-fc-ac'>
+          <text class='t-data-item-rank t-color-healty'>15W</text>
+          <text>营业额</text>
+        </view>
+      </view>
+      <view class="zan-col zan-col-8">
+        <view class='t-index-data-item flex-fc-ac'>
+          <text class='t-data-item-rank'>155</text>
+          <text>同类排名</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

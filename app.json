@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/personal/index",
+    "pages/shopManage/index",
+    "pages/diamond/index",
+    "pages/saleAna/index",
+    "pages/checkSale/index",
+    "pages/shop/index",
+    "pages/test/index",
+    "pages/areaManage/index",
+    "pages/bindInfo/index",
+    "pages/reward/index",
+    "pages/stock/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "KDDLite",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#222",
+    "selectedColor": "#0ea4ea",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.jpeg",
+        "selectedIconPath": "images/home_select.jpeg"
+      },
+      {
+        "pagePath": "pages/shopManage/index",
+        "text": "店铺管理",
+        "iconPath": "images/shop.jpeg",
+        "selectedIconPath": "images/shop_select.jpeg"
+      },
+      {
+        "pagePath": "pages/diamond/index",
+        "text": "全明星",
+        "iconPath": "images/diamond.jpeg",
+        "selectedIconPath": "images/diamond_select.jpeg"
+      },
+      {
+        "pagePath": "pages/personal/index",
+        "text": "我",
+        "iconPath": "images/my.jpeg",
+        "selectedIconPath": "images/my_select.jpeg"
+      }
+    ]
+  }
+}

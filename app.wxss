@@ -1,0 +1,88 @@
+/**app.wxss**/
+
+@import "dist/index.wxss";
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+.t-index-top {
+  height: 45px ;
+  line-height: 45px ;
+  display: flex ;
+  justify-content: space-between;
+  font-size: 12px ;
+  padding: 0 8px ;
+  border-bottom: 1px solid #ccc ;
+}
+
+.t-index-main-title {
+  font-size: 16px;
+}
+
+.t-main-title{
+  padding: 30rpx 0 ;
+  display: inline-block ;
+}
+.t-container-top{
+  height: 350rpx ;
+  width: 100% ;
+  background-color: #f6f6f6 ;
+  margin-bottom: 5rpx ;
+}
+.t-grid-item {
+  display: flex ;
+  flex-direction: column ;
+  justify-content: center ;
+  align-items: center;
+  padding: 15rpx ;
+}
+.t-grid-item-iamge {
+  height: 3.5rem ;
+  width: 3.5rem ;
+  border-radius: 10px;
+}
+.t-grid-item-text{
+  margin-top: 15rpx ;
+  font-size: .7rem ;
+}
+.flex-fc-ac {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.t-color-primary {
+  color: #0ea4ea ;
+}
+.t-color-success {
+  color: #19be6a ;
+}
+.t-color-warn {
+  color: #FF982C ;
+}
+.t-color-error {
+  color: #F63D26 ;
+}
+
+.t-color-unhealty{
+  color: #f65e5e ;
+}
+
+.t-color-healty {
+  color: #78c06e ;
+}
+
+.t-color-care {
+  color: #f6bf26 ;
+}
+
+.zan-btn--info{
+  background-color: #0ea4ea ;
+  color: #fff ;
+  border-radius: 5px ;
+}

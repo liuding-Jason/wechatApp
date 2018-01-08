@@ -1,0 +1,6 @@
+<!--pages/bindInfo/index.wxml-->
+<view class='container t-bind-info'>
+  <view>亲爱的用户</view>
+  <text>请尽快联系您店铺专属的渠道经理吧！</text>
+  <view class='t-color-error'>一大波奖励红包正在路上！</view>
+</view>

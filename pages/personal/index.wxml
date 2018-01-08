@@ -1,0 +1,76 @@
+<!-- personal page  -->
+<import src="/dist/switch/index.wxml" />
+<view class='t-personal-top'>
+  <view class='t-person-info'>
+    <image class='userinfo-avatar' src="{{userInfo.avatarUrl}}"></image>
+    <text>{{userInfo.nickName}}</text>
+    <navigator 
+      url='/pages/bindInfo/index' 
+      class="zan-tag" 
+      style='margin:3px 0 0 8px ;'>未绑定店铺</navigator>
+  </view>
+  <navigator 
+    url='/pages/reward/index' 
+    class='t-personal-reward'>
+    <image src='/images/reward.png'></image>
+    奖励值 {{ reward }}
+    <view class="zan-cell__icon zan-icon zan-icon-arrow" style='margin-left:5px ;'></view>
+  </navigator>
+</view>
+<view class='t-personal-body'>
+  <view class='t-person-quick'>
+    <view class="zan-row">
+      <view class="zan-col zan-col-6 flex-fc-ac">
+        <image class='t-quick-icon' src='/images/sign.png'></image>
+        <text>签到</text>
+      </view>
+      <view class="zan-col zan-col-6 flex-fc-ac">
+        <image class='t-quick-icon' src='/images/clock.png'></image>
+        <text>打卡</text>
+      </view>
+      <view class="zan-col zan-col-6 flex-fc-ac">
+        <image class='t-quick-icon' src='/images/daily.png'></image>
+        <text>日历</text>
+      </view>
+      <view class="zan-col zan-col-6 flex-fc-ac">
+        <image class='t-quick-icon' src='/images/task.png'></image>
+        <text>任务</text>
+      </view>
+    </view>
+  </view>
+  <view class="zan-panel">
+    <view class="zan-cell zan-cell--access">
+      <view class="zan-cell__icon zan-icon zan-icon-clock" style="color:#38f;"></view>
+      <view class="zan-cell__bd">审核记录</view>
+      <view class="zan-cell__ft"></view>
+    </view>
+    <view class="zan-cell zan-cell--access">
+      <view class="zan-cell__icon zan-icon zan-icon-pending-payment t-color-error"></view>
+      <view class="zan-cell__bd">我的钱包</view>
+      <view class="zan-cell__ft"></view>
+    </view>
+    <view class="zan-cell zan-cell--access">
+      <view class="zan-cell__icon zan-icon zan-icon-records t-color-success"></view>
+      <view class="zan-cell__bd">我的记录</view>
+      <view class="zan-cell__ft"></view>
+    </view>
+  </view>
+
+  <view class="zan-panel">
+    <view class="zan-cell zan-cell--access">
+      <view class="zan-cell__icon zan-icon zan-icon-browsing-history t-color-warn" ></view>
+      <view class="zan-cell__bd">我的关注</view>
+      <view class="zan-cell__ft"></view>
+    </view>
+    <navigator
+      url='/pages/areaManage/index'
+      class="zan-cell zan-cell--access">
+      <view class="zan-cell__icon zan-icon zan-icon-pending-payment" style="color:#38f;"></view>
+      <view class="zan-cell__bd">区域经理</view>
+      <view class="zan-cell__ft"></view>
+    </navigator>
+  </view>
+
+</view>
+
+

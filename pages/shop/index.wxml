@@ -1,0 +1,15 @@
+<!--pages/shop/index.wxml-->
+<import src="/dist/select/index.wxml" />
+<view class='t-index-top'>
+  <view class='t-index-main-title'>
+    店铺列表
+  </view>
+  <view>
+      <button class="zan-btn zan-btn--small zan-btn--info">选择</button>
+  </view>
+</view>
+<view>
+  <view>
+    <template is="zan-select" data="{{items : shoplist , checkedValue: checked.color, activeColor, componentId: 'color' }}" ></template>
+  </view>
+</view>

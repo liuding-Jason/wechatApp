@@ -1,0 +1,38 @@
+/**index.wxss**/
+
+.t-index-change-shop {
+  margin-right: 15px ;
+}
+.t-index-change-shop:after{
+  content: "" ;
+  display: inline-block ;
+  width: 0;
+  height: 0;
+  position: relative ;
+  top: 5px ;
+  left: 10px ;
+  border-top: 6px solid black;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 6px solid transparent;
+}
+
+.t-index-total-data {
+  width: 90% ;
+  margin: 0 auto ;
+  margin-top: 30rpx; 
+  background-color: #0ea4e3 ;
+  border-radius: 2px ;
+  box-shadow: 0 0 5 #1b7ce2 ;
+  color: white ;
+  padding-bottom: 15px ;
+}
+
+.t-index-data-item {
+  font-size: .8rem ;
+  margin-top: 15px ;
+}
+
+.t-data-item-rank{
+  font-size: 1.5rem ;
+}

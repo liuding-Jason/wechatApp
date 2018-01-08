@@ -1,0 +1,31 @@
+/* pages/checkSale/index.wxss */
+.t-check-input {
+  background-color: #0ea4e3;
+  padding: 8px 20px ;
+  display: flex ;
+  justify-content: space-between ;
+  align-items: center;
+}
+.t-check-input-item {
+  background-color : #fff ;
+  height: 35px ;
+  line-height: 35px ;
+  border-radius: 5px ;
+  display: flex ;
+  align-content: center ;
+  padding-left: 5px ;
+  flex: 1 ;
+}
+.t-check-filter{
+  height: 23px ;
+  width: 23px ;
+  margin-left: 8px ;
+}
+
+.t-check-input-item .zan-field {
+  padding: 0 0 0 5px ;
+}
+
+.t-check-input-item .zan-field__input{
+  padding: 0 ;
+}
